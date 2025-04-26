@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  /* background-color: aqua; */
+  display: flex;
+  /* justify-content: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  padding: 1.5em;
+}
+.panel {
+  margin: auto;
+  width: 40em;
+  height: 35em;
+  background-color: rgb(11, 66, 114);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.panel ol {
+  flex: 3;
+}
+.panel h2 {
+  text-align: center;
+  padding: 1em;
+}
+.panel form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+.panel form .inputTask {
+  position: absolute;
+  padding: 1.3em 2em 1.3em 1.2em;
+  border: 0;
+  border-radius: 10px;
+  /* background-color: black; */
+}
+.listTask {
+  text-align: left;
+  /* display: flex; */
+  width: 50%;
+  height: 70%;
+  flex: 3;
+  margin: auto;
+}
+
+.listTask input {
+  margin: 1.2em 1em 0 0;
+}
+
+.button {
+  /* background-color: rebeccapurple; */
+  /* padding: 2em 0; */
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 2em auto;
+}
+
+.button .costum {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: salmon;
+  font-weight: bold;
+  font-size: 1.3em;
+  box-shadow: 7px 5px black;
+  transition: all 0.9s;
+  cursor: pointer;
+}
+
+.button .costum:hover {
+  color: wheat;
+}
+.button .costum:active {
+  box-shadow: 2px 1px black;
+}
